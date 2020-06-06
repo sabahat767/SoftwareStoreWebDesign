@@ -126,18 +126,42 @@
           </tbody>
         </table> 
         <div class="form-group w-50 mt-5 ml-auto mr-auto border w3-animate-right" style="background-color: #91B2D4 ;">
-          <label for="exampleInputPassword1"> <b>Choose Payment  Method</b></label>
-          <div class="custom-control custom-radio">
-            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio1">Via SIM</label>
-          </div>
+          <label for="exampleInputPassword1"> <b> Payment  Method</b></label>
+         
           <div class="custom-control custom-radio">
             <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-            <label class="custom-control-label" for="customRadio2">Via credit Card</label>
-          </div>
-          
-         
-        </div>
+            <label class="custom-control-label" for="customRadio2"><image src="images/visa.png"  style="width: 70px; height: 64px;"/></label><br/>
+            <label for="Card-no" class="text-white">Card Number:</label>
+                  <input type="password" class="form-control " id="card-no" placeholder="xxxx-xxxx-xxxx-xxxx" name="card-no">
+                  <label for="cvc" class="text-white">CvC:</label>
+                  <input type="text" class="form-control " id="cvc" placeholder="xxxx" name="cvc">
+                  <label for="exp-date" class="text-white">Expiration Date:</label>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <select class="custom-select">
+                        <option selected="">month</option>
+                        <option value="1">jan</option>
+                        <option value="2">feb</option>
+                        <option value="3">march</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-4">
+                      <select class="custom-select">
+                        <option selected="">year</option>
+                        <option value="1">2020</option>
+                        <option value="2">2021</option>
+                        <option value="3">2023</option>
+                      </select>
+                    </div>
+                   
+                  
+                  </div>
+                
+                  
+          </div> 
+
+</div>
+
   </div>
 </div>
 
